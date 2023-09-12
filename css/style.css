@@ -9454,6 +9454,7 @@ a.text-dark:hover, a.text-dark:focus {
 /********** Template CSS ************/
 .font-secondary {
   font-family: 'Great Vibes', cursive;
+  color: white;
 }
 
 .btn-square {
