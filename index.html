@@ -1,570 +1,460 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Risa & Yusuf</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Sabtu, 14 Oktober 2023" />
+	<meta property="og:image" content="https://metatelid.github.io/risa-yusuf/images/icon.jpg" />
+	<meta property="og:image:width" content="128" />
+	<meta property="og:image:height" content="118" />
 
-<head>
-    <meta charset="utf-8">
-    <title>Gilang & Putri</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="description" content="Minggu, 01 Oktober 2023" />
-    <meta property="og:image" content="https://metatelid.github.io/gilang-putri/img/icon.png" />
-    <meta property="og:image:width" content="128" />
-    <meta property="og:image:height" content="118" />
+	<link rel="shortcut icon" href="images/ico.png">
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
 
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="51" style="background-color: #000000c7;">
-    <!-- Start Modal -->
-    <button type="button" class="btn btn-modal btn-primary d-none" data-toggle="modal" data-target="#fullscreenModal">Buka Modal</button>
+	<!-- Gallery -->
+	<link rel="stylesheet" href="css/grid-gallery.min.css">
 
-    <div class="modal fade" id="fullscreenModal" tabindex="-1" role="dialog" aria-labelledby="fullscreenModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="fullscreenModalLabel">Undangan Pernikahan Gilang & Putri</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً وَّرَحْمَةً ۗاِنَّ فِيْ ذٰلِكَ لَاٰيٰتٍ لِّقَوْمٍ يَّتَفَكَّرُوْنَ</p>
+	<!-- Icon Bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+
+	<!-- Button trigger modal -->
+	<button type="button" class="btn btn-primary btn-modal" style="display: none;" data-toggle="modal" data-target="#exampleModal">
+	  Launch demo modal
+	</button>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="static">
+	  <div class="modal-dialog modal-dialog-centered">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">We Invited You</h5>
+	      </div>
+	      <div class="modal-body text-center">
+	        <p>وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ اَزْوَاجًا لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَّوَدَّةً وَّرَحْمَةً ۗاِنَّ فِيْ ذٰلِكَ لَاٰيٰتٍ لِّقَوْمٍ يَّتَفَكَّرُوْنَ</p>
             <p>Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada yang demikian itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir. (QS Ar-Rum : 21)</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="playAudio()">Buka Undangan</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <audio id="music" hidden loop>
-        <source src="img/music.mp3" type="">
+            <input type="text" id="inputData" placeholder="Isi Nama Lengkap Anda">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-primary" onclick="playAudio()">Open Invitation</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<audio id="music" hidden loop>
+    	<source src="images/music.mp3" type="">
     </audio>
 
-    <!-- Navbar Start -->
-    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
-        <a href="index.html" class="navbar-brand d-block d-lg-none">
-            <h1 class="font-secondary text-white mb-n2">Gilang <span class="text-primary">&</span> Putri</h1>
-        </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-            <div class="navbar-nav ml-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">About</a>
-                <a href="#story" class="nav-item nav-link">Story</a>
-                <a href="#gallery" class="nav-item nav-link">Gallery</a>
-            </div>
-            <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
-                <h1 class="font-secondary text-white mb-n2">Gilang <span class="text-primary">&</span> Putri</h1>
-            </a>
-            <div class="navbar-nav mr-auto py-0">
-                <a href="#event" class="nav-item nav-link">Event</a>
-                <a href="#family" class="nav-item nav-link">Gifts</a>
-                <a href="#rsvp" class="nav-item nav-link">RSVP</a>
-                <a href="#contact" class="nav-item nav-link">Contact</a>
-            </div>
-        </div>
-    </nav>
-    <!-- Navbar End -->
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-2">
+					<div id="fh5co-logo"><a href="#fh5co-header">Wedding<strong>.</strong></a></div>
+				</div>
+				<div class="col-xs-10 text-right menu-1">
+					<ul>
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#fh5co-couple-story">Story</a></li>
+						<li><a href="#fh5co-services">Services</a></li>
+						<li><a href="#fh5co-gallery">Gallery</a></li>
+						<li><a href="#fh5co-comment">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</nav>
 
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<h1>Risa &amp; Yusuf</h1>
+							<h2>We Are Getting Married</h2>
+							<p><a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NHRycTNoNGppN3MwZGZkN20zN2Zmc3ZnbmggbWVwcmF0ZWxAbQ&tmsrc=mepratel%40gmail.com" class="btn btn-default btn-sm">Save the date</a></p>
+							<h2 id="hasilInputan"></h>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5 pb-5" id="home">
-        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/carousel-1.jpg" style="object-fit: cover;">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Gilang & Putri</h1>
-                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
-                                <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px;">We're getting married</h3>
-                            </div>
-                            <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px; padding-top: 15px;">Minggu, 01 Oktober 2023</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/carousel-2.jpg" style="object-fit: cover;">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Gilang & Putri</h1>
-                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
-                                <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px;">We're getting married</h3>
-                            </div>
-                            <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px; padding-top: 15px;">Minggu, 01 Oktober 2023</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/carousel-3.jpg" style="object-fit: cover;">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Gilang & Putri</h1>
-                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
-                                <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px;">We're getting married</h3>
-                            </div>
-                            <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px; padding-top: 15px;">Minggu, 01 Oktober 2023</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev justify-content-start" href="#header-carousel" data-slide="prev">
-                <div class="btn btn-primary px-0" style="width: 68px; height: 68px;">
-                    <span class="carousel-control-prev-icon mt-3"></span>
-                </div>
-            </a>
-            <a class="carousel-control-next justify-content-end" href="#header-carousel" data-slide="next">
-                <div class="btn btn-primary px-0" style="width: 68px; height: 68px;">
-                    <span class="carousel-control-next-icon mt-3"></span>
-                </div>
-            </a>
-        </div>
-    </div>
-    <!-- Carousel End -->
+	<div id="fh5co-couple">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box" style="margin-bottom: 30px;">
+					<h2>Hello!</h2>
+					<h3>Sabtu, 14 Oktober 2023, Cililin, IND</h3>
+					<p>We invited you to celebrate our wedding</p>
+				</div>
+			</div>
+		    <!-- Start Countdown -->
+		    <div class="countdown-container" style="margin-bottom: 30px;">
+		        <div class="circle">
+		            <span id="days"></span>
+		        </div>
+		        <div class="circle">
+		            <span id="hours"></span>
+		        </div>
+		        <div class="circle">
+		            <span id="minutes"></span>
+		        </div>
+		        <div class="circle">
+		            <span id="seconds"></span>
+		        </div>
+		    </div>
+		    <!-- End Countdown -->
+			<div class="couple-wrap animate-box">
+				<div class="couple-half">
+					<div class="groom">
+						<img src="images/groom.jpg" alt="groom" class="img-responsive">
+					</div>
+					<div class="desc-groom">
+						<h3>Risa Seftiani</h3>
+						<p>Putri dari pasangan</br>Dadang Dahlan & Dida Farida</p>
+						<p><small class="block"><i class="icon-instagram"></i> <a href="https://www.instagram.com/rissaseftiani/" target="_blank">rissaseftiani</a></p></small>
+					</div>
+				</div>
+				<p class="heart text-center"><i class="icon-heart2"></i></p>
+				<div class="couple-half">
+					<div class="bride">
+						<img src="images/bride.jpg" alt="groom" class="img-responsive">
+					</div>
+					<div class="desc-bride">
+						<h3>Yusuf Dirantika</h3>
+						<p>Putra dari pasangan</br>Dedi Efendi & Ika Kartika</p>
+						<p><small class="block"><i class="icon-instagram"></i> <a href="https://www.instagram.com/yusufdirantika/" target="_blank">yusufdirantika</a></p></small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <!-- Start Countdown -->
-    <div class="countdown-container">
-        <div class="circle">
-            <span id="days"></span>
-        </div>
-        <div class="circle">
-            <span id="hours"></span>
-        </div>
-        <div class="circle">
-            <span id="minutes"></span>
-        </div>
-        <div class="circle">
-            <span id="seconds"></span>
-        </div>
-    </div>
-    <!-- End Countdown -->
+	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<span>Our Special Events</span>
+					<h2>Wedding Events</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="display-t">
+					<div class="display-tc">
+						<div class="col-md-10 col-md-offset-1">
+							<div class="col-md-6 col-sm-6 text-center">
+								<div class="event-wrap animate-box">
+									<h3>Akad</h3>
+									<div class="event-col">
+										<i class="icon-clock"></i>
+										<span>8:00 AM</span>
+										<span>10:00 AM</span>
+									</div>
+									<div class="event-col">
+										<i class="icon-calendar"></i>
+										<span>Sabtu, 14</span>
+										<span>Oktober, 2023</span>
+									</div>
+									<p>Xpose Resto & Cafe Jl. Cintakarya, Cililin, Kec. Cililin, Kabupaten Bandung Barat, Jawa Barat 40562</p>
+									<p><a target="_blank" href="https://maps.app.goo.gl/Bc4yYjPTjXXsqHcu7" class="btn btn-default btn-sm">Open Maps</a></p>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 text-center">
+								<div class="event-wrap animate-box">
+									<h3>Resepsi</h3>
+									<div class="event-col">
+										<i class="icon-clock"></i>
+										<span>11:00 AM</span>
+										<span>02:00 PM</span>
+									</div>
+									<div class="event-col">
+										<i class="icon-calendar"></i>
+										<span>Sabtu 14</span>
+										<span>Oktober, 2023</span>
+									</div>
+									<p>Xpose Resto & Cafe Jl. Cintakarya, Cililin, Kec. Cililin, Kabupaten Bandung Barat, Jawa Barat 40562</p>
+									<p><a target="_blank" href="https://maps.app.goo.gl/Bc4yYjPTjXXsqHcu7" class="btn btn-default btn-sm">Open Maps</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <!-- About Start -->
-    <div class="container-fluid py-5" id="about">
-        <div class="container py-5">
-            <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">About</h6>
-                <h1 class="font-secondary display-4">Groom & Bride</h1>
-                <i class="far fa-heart text-light"></i>
-            </div>
-            <div class="row m-0 mb-4 mb-md-0 pb-2 pb-md-0">
-                <div class="col-md-6 p-0 text-center text-md-right">
-                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
-                        <h3 class="mb-3">Pengantin Pria</h3>
-                        <p>Putra dari pasangan<br/>Bapak Ujang Dobing & Ibu Aidah</p>
-                        <h3 class="font-secondary font-weight-normal text-muted mb-3"><i class="fa fa-male text-primary pr-3"></i>Gilang Hadiansah</h3>
-                        <div class="position-relative">
-                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/gilanghs_/"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 p-0" style="min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/about-1.jpg" style="object-fit: cover;">
-                </div>
-            </div>
-            <div class="row m-0">
-                <div class="col-md-6 p-0" style="min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/about-2.jpg" style="object-fit: cover;">
-                </div>
-                <div class="col-md-6 p-0 text-center text-md-left">
-                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
-                        <h3 class="mb-3">Pengantin Wanita</h3>
-                        <p>Putri dari pasangan<br>Bapak mahdar & Ibu Imas</p>
-                        <h3 class="font-secondary font-weight-normal text-muted mb-3"><i class="fa fa-female text-primary pr-3"></i>Putri Afriliani</h3>
-                        <div class="position-relative">
-                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/putri_ap01/"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
+	<div id="fh5co-couple-story">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<span>We Love Each Other</span>
+					<h2>Turut Mengundang</h2>
+					<p>"Aku tak pernah menunggumu. Kamu tak pernah sengaja datang. Tapi kita sengaja dipertemukan Tuhan. Entah untuk saling duduk berdampingan atau saling memberi pelajaran dan duduk bersama di pelaminan."</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline animate-box">
+						<li class="animate-box">
+							<div class="timeline-badge" style="background-image:url(images/couple-1.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Keluarga Yang kami Cintai</h3>
+									<span class="date">Turut Mengundang</span>
+								</div>
+								<div class="timeline-body">
+									<p>
+										Keluarga besar Bpk.Ma’mun Suherman<br/>
+										Keluarga besar Bpk. Udin Saepudin<br/>
+										Keluarga besar Bpk. Didi Supardi (Alm)<br/>
+										Keluarga besar Bpk. Dasum Rohaendi (Alm)
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Yang Terhormat</h3>
+									<span class="date">Turut Mengundang</span>
+								</div>
+								<div class="timeline-body">
+									<p>Hj Cucum Sumiati</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Rekan - Rekan Dan Saudara</h3>
+									<span class="date">Turut Mengundang</span>
+								</div>
+								<div class="timeline-body">
+									<p>
+										Keluarga besar Pelangi Indah<br/>
+										Keluarga besar PT. Rumah sakit Pajajaran
+									</p>
+								</div>
+							</div>
+						</li>
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<div id="fh5co-gallery" class="fh5co-section-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<span>Our Memories</span>
+					<h2>Wedding Gallery</h2>
+					<p>"Pasanganmu adalah rezekimu, pilihan adalah takdirmu. Maka janganlah memandang kepada selain milikmu dan janganlah membanding-bandingkan dengan yang bukan milikmu."</p>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-md">
+				<div class="col-md-12">
+				    <div id="gg-screen"></div>
+				    <div class="gg-box">
+				      <div class="gg-element">
+				        <img src="images/a.jpg">
+				      </div>
+				      <div class="gg-element">
+				        <img src="images/b.jpg">
+				      </div>
+				      <div class="gg-element">
+				        <img src="images/c.jpg">
+				      </div>
+				      <div class="gg-element">
+				        <img src="images/d.jpg">
+				      </div>
+				      <div class="gg-element">
+				        <img src="images/e.jpg">
+				      </div>
+				      <div class="gg-element">
+				        <img src="images/f.jpg">
+				      </div>
+				      <div class="gg-element">
+				        <img src="images/g.jpg">
+				      </div>
+				      <div class="gg-element">
+				        <img src="images/h.jpg">
+				      </div>
+				      <div class="gg-element">
+				        <img src="images/i.jpg">
+				      </div>
+				      <div class="gg-element">
+				        <img src="images/j.jpg">
+				      </div>
+				      <div class="gg-element">
+				        <img src="images/k.jpg">
+				      </div>
+				      <div class="gg-element">
+				        <img src="images/l.jpg">
+				      </div>
+				      <div class="gg-element">
+				        <img src="images/m.jpg">
+				      </div>
+				      <div class="gg-element">
+				        <img src="images/n.jpg">
+				      </div>
+				      <div class="gg-element">
+				        <img src="images/o.jpg">
+				      </div>
+				      <div class="gg-element">
+				        <img src="images/p.jpg">
+				      </div>
+				    </div>
+				    <!-- Grid Gallery -->
+				    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+				    <script type="text/javascript" src="js/grid-gallery.min.js"></script>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <!-- Story Start -->
-    <div class="container-fluid py-5" id="story">
-        <div class="container pt-5 pb-3">
-            <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Story</h6>
-                <h1 class="font-secondary display-4">Our Love Story</h1>
-                <i class="far fa-heart text-light"></i>
-            </div>
-            <div class="container timeline position-relative p-0">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-right">
-                        <img class="img-fluid mr-md-3" src="img/story-1.jpg" alt="">
-                    </div>
-                    <div class="col-md-6 text-center text-md-left">
-                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
-                            <h4 class="mb-2">Unknwon People</h4>
-                            <p class="text-uppercase mb-2">Not Description</p>
-                            <p class="m-0">Pada mulanya kami adalah dua raga yang asing. Namun, takdir dari-Nya membawa langkah kami untuk bertemu, saling mengenal dan memahami, hingga memiliki keinginan yang sama untuk menuju pada ikatan yang suci. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-right">
-                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
-                            <h4 class="mb-2">First Time Seeing</h4>
-                            <p class="text-uppercase mb-2">26 Des 2021</p>
-                            <p class="m-0">Kisah ini berawal dari unggahan Story WhatsApp kawan kami. Saat itu, secara tidak sengaja, Gilang menemukan sosok Putri dalam video tersebut. Merasa ada yang berhasil menarik hatinya, Gilang pun memutuskan untuk meminta kontak Putri dari kawannya. Di hari yang sama pula, Gilang ingin berkenalan dan akhirnya mencoba untuk menghubungi Putri melalui WhatsApp.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 text-center text-md-left">
-                        <img class="img-fluid ml-md-3" src="img/story-2.jpg" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-right">
-                        <img class="img-fluid mr-md-3" src="img/story-3.jpg" alt="">
-                    </div>
-                    <div class="col-md-6 text-center text-md-left">
-                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
-                            <h4 class="mb-2">First Meet</h4>
-                            <p class="text-uppercase mb-2">29 Des 2021</p>
-                            <p class="m-0">Setelah beberapa hari berkomunikasi via WhatsApp, kami berdua sepakat untuk bertemu. Lokasi yang dipilih adalah tempat dimana Putri bekerja.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-right">
-                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
-                            <h4 class="mb-2">Komitment</h4>
-                            <p class="text-uppercase mb-2">02 Feb 2022</p>
-                            <p class="m-0">Seiring berjalannya waktu, intensitas komunikasi dan pertemuan kami semakin sering. Dari sanalah timbul rasa nyaman dan merasa saling melengkapi antara satu sama lain.Maka, pada awal Februari Gilang memberanikan diri mendatangi rumah Putri untuk menyampaikan perasaannya. Dan... Tanpa ragu, Putri pun yakin untuk menerima perasaan Gilang.Sejak saat itu, kami pun saling memperkenalkan keluarga masing-masing.3 bulan kemudian, Putri bekerja di Bandung sementara Gilang bekerja dari rumah (WFH). Semakin lama, semakin banyak peristiwa, suka duka dan rintangan yang kami hadapi. Namun hal itu tidak membuat cinta kami surut, justru... membuat cinta kami semakin kuat. Hingga akhirnya, memilih berkomitmen untuk membawa hubungan ini ke jenjang yang lebih serius. </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 text-center text-md-left">
-                        <img class="img-fluid ml-md-3" src="img/story-4.jpg" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-right">
-                        <img class="img-fluid mr-md-3" src="img/story-5.jpg" alt="">
-                    </div>
-                    <div class="col-md-6 text-center text-md-left">
-                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
-                            <h4 class="mb-2">Enganggement</h4>
-                            <p class="text-uppercase mb-2">2 Des 2022</p>
-                            <p class="m-0">Gilang menunjukkan keseriusan dirinya kepada Putri dengan melamarnya. Acara tersebut dihadiri oleh kedua pihak keluarga dan kerabat-kerabatnya.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-right">
-                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
-                            <h4 class="mb-2">Build a business together</h4>
-                            <p class="text-uppercase mb-2">23 Feb 2023</p>
-                            <p class="m-0">Kami memiliki keinginan untuk membangun bisnis berdua. Dan... Alhamdulillah terealisasi pada akhir Februari 2023.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 text-center text-md-left">
-                        <img class="img-fluid ml-md-3" src="img/story-6.jpg" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-right">
-                        <img class="img-fluid mr-md-3" src="img/story-7.jpg" alt="">
-                    </div>
-                    <div class="col-md-6 text-center text-md-left">
-                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
-                            <h4 class="mb-2">Maried</h4>
-                            <p class="text-uppercase mb-2">1 Okt 2023</p>
-                            <p class="m-0">Setelah melalui proses yang panjang, in sya Allah kami berdua memutuskan untuk menikah pada 1 Oktober 2023.Menikah adalah ibadah yang sangat panjang. Maka, semoga Allah menganugerahi rumah tangga yang kebersamaannya abadi sampai ke surga. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Story End -->
+	<div id="fh5co-services">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>give a greeting</h2>
+					<p>Berikan ucapan dan doa terindah pada kedua calon mempelai untuk memberikan rasa bahagia yang tidak terbatas.</p>
+				</div>
+			</div>
 
+			<div class="row animate-box">
+				<div class="col-md-4 col-md-offset-4">
+	              <div class="card d-block mb-3"><img class="card-img-top" src="images/bca.jpg">
+	                <div class="card-body text-center">
+	                  <p class="mb-0 text-muted mb-1">No. Rekening</p>
+	                  <div class="input-group mb-1">
+	                    <button class="btn btn-outline-dark" type="button" id="button-addon1" onclick="rekening()"><i class="bi bi-clipboard-plus"></i> Copy</button>
+	                    <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" value="1320026781030" id="rekening" readonly="">
+	                  </div>
+	                  <p>A. N. Risa Seftiani</p>
+	                </div>
+	              </div>
+				</div>
+			</div>
 
-    <!-- Gallery Start -->
-    <div class="container-fluid bg-gallery" id="gallery" style="padding: 120px 0; margin: 90px 0;">
-        <div class="section-title position-relative text-center" style="margin-bottom: 120px;">
-            <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Gallery</h6>
-            <h1 class="font-secondary display-4 text-white">Our Photo Gallery</h1>
-            <i class="far fa-heart text-white"></i>
-        </div>
-        <div class="owl-carousel gallery-carousel">
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-1.jpg" alt="">
-                <a href="img/gallery-1.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-2.jpg" alt="">
-                <a href="img/gallery-2.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-3.jpg" alt="">
-                <a href="img/gallery-3.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-4.jpg" alt="">
-                <a href="img/gallery-4.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-5.jpg" alt="">
-                <a href="img/gallery-5.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-6.jpg" alt="">
-                <a href="img/gallery-6.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-7.jpg" alt="">
-                <a href="img/gallery-6.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-8.jpg" alt="">
-                <a href="img/gallery-6.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-9.jpg" alt="">
-                <a href="img/gallery-6.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-10.jpg" alt="">
-                <a href="img/gallery-6.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- Gallery End -->
+			<div class="row justify-content-center" style="margin-top: 60px;">
+				<div class="col-md-6 col-md-offset-3">
+					<div class="commentbox"></div>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/b.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Are You Attending?</h2>
+					<p>Dari Abdullah bin Umar r.a ia berkata; Rasulullah Saw bersabda ‚ penuhilah undangan jika kalian diundang untuk menghadiri walimah, maka datangilah. ‛( H.R Bukhori).</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <!-- Event Start -->
-    <div class="container-fluid py-5" id="event">
-        <div class="container py-5">
-            <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Event</h6>
-                <h1 class="font-secondary display-4">Our Wedding Event</h1>
-                <i class="far fa-heart text-light"></i>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-6 text-center">
-                    <h5 class="font-weight-normal text-light mb-3 pb-3"> "Pasanganmu adalah rezekimu, pilihan adalah takdirmu. Maka janganlah memandang kepada selain milikmu dan janganlah membanding-bandingkan dengan yang bukan milikmu."</h5>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 border-right border-primary">
-                    <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0">
-                        <img class="img-fluid mb-4" src="img/event-1.jpg" alt="">
-                        <h4 class="mb-3 text-light">Akad Nikah</h4>
-                        <p class="mb-2 text-light">Kediaman mempelai wanita Madrasah miftahul ulum Kp pasir pogor Rt 03 Rw 01 Desa Puncak sari Kec Sindangkerta .kab Bandung barat</p>
-                        <p class="mb-0 text-light">Minggu, 01 Okt 2023, 00:08 - 10:00</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="text-center text-md-left ml-md-3">
-                        <img class="img-fluid mb-4" src="img/event-2.jpg" alt="">
-                        <h4 class="mb-3 text-light">Resepsi</h4>
-                        <p class="mb-2 text-light">kediaman mempelai wanita Madrasah miftahul ulum Kp pasir pogor Rt 03 Rw 01 Desa Puncak sari Kec Sindangkerta .kab Bandung barat</p>
-                        <p class="mb-0 text-light">Minggu, 01 Okt 2023, 10:00 - Selesai</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-6" style="margin-top: 20px;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3960.217430158634!2d107.40061567499704!3d-6.98364779301723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNTknMDEuMSJTIDEwN8KwMjQnMTEuNSJF!5e0!3m2!1sid!2sid!4v1694448167138!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Event End -->
+	<footer id="fh5co-footer" role="contentinfo">
+		<div class="container">
 
-    <!-- Entertainment Start -->
-    <div class="container-fluid bg-entertainment" id="entertainment" style="padding: 120px 0; margin: 90px 0;">
-        <div class="section-title position-relative text-center" style="margin-bottom: 120px;">
-            <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Entertainment</h6>
-            <h1 class="font-secondary display-4 text-white">Alunan Musik Akustik Terbaik</h1>
-            <i class="far fa-heart text-white"></i>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-md-5">
-                <img src="img/akustik.jpg" style="width: 100%; border-radius: 50%">
-            </div>
-        </div>
-    </div>
-    <!-- Entertainment End -->
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
+						<small class="block">Design by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+						<small class="block">Web Invitation by<a href="https://wa.me/+6281220531990" target="_blank"> Juliandi Pratama</small>
+					</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="https://www.instagram.com/_zulpratama/"><i class="icon-instagram"></i></a></li>
+							<li><a href="https://www.facebook.com/mjuliandi"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/juliandi-pratama-83531021b/"><i class="icon-linkedin"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
 
-    <!-- Friends & Family Start -->
-    <div class="container-fluid py-5" id="family">
-        <div class="container pt-5 pb-3">
-            <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Untuk Kedua Mempelai</h6>
-                <h1 class="font-secondary display-4">Give Gifts</h1>
-                <i class="far fa-heart text-light"></i>
-            </div>
-            <div class="row justify-content-center">
-            <div class="col-md-4">
-              <div class="card d-block mb-3"><img class="card-img-top" src="img/bca.jpg" alt="Bride Maid 1">
-                <div class="card-body text-center">
-                  <p class="mb-0 text-muted mb-1">No. Rekening</p>
-                  <div class="input-group mb-1">
-                    <button class="btn btn-outline-dark" type="button" id="button-addon1" onclick="copy_bca()"><i class="bi bi-clipboard-plus"></i> Copy</button>
-                    <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" value="1393227978" id="bca" readonly="">
-                  </div>
-                  <p>A. N. Gilang Hadiansah</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card d-block mb-3"><img class="card-img-top" src="img/bri.png" alt="Bride Maid 1">
-                <div class="card-body text-center">
-                  <p class="mb-0 text-muted mb-1">No. Rekening</p>
-                  <div class="input-group mb-1">
-                    <button class="btn btn-outline-dark" type="button" id="button-addon1" onclick="copy_bri()"><i class="bi bi-clipboard-plus"></i> Copy</button>
-                    <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" value="4122-0101-5140-508" id="bri" readonly="">
-                  </div>
-                  <p>A. N. Putri Afriliani</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-    <!-- Friends & Family End -->
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
 
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
 
-    <!-- RSVP Start -->
-    <div class="container-fluid py-5" id="rsvp">
-        <div class="container py-5">
-            <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">RSVP</h6>
-                <h1 class="font-secondary display-4">Join Our Party</h1>
-                <i class="far fa-heart text-light"></i>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8" style="background-color: white;">
-                    <div class="text-center">
-                        <div class="commentbox"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- RSVP End -->
+	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
+	<script src="js/simplyCountdown.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
 
-    <!-- Closing Start -->
-    <div class="container-fluid py-5" id="closing">
-        <div class="container py-5">
-            <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Closing</h6>
-                <h1 class="font-secondary display-4">Terimakasih Telah Membaca Undangan Kami</h1>
-                <i class="far fa-heart text-light"></i>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-6 text-center">
-                    <h5 class="font-weight-normal text-light mb-3 pb-3">Silahkan saksikan sedikit memori dari kami sebagai penutup, dan saksikan live kami di link instagram berikut.</h5>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <p class="text-light">
-                      Klik untuk mematikan lagu --->
-                      <button type="button" class="btn btn-success play d-none" onclick="playAudio()"><i class="bi bi-volume-mute-fill"></i></button>
-                      <button type="button" class="btn btn-warning pause" onclick="pauseAudio()"><i class="bi bi-volume-up-fill"></i></button>
-                    <p>
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/6751JaTGdeo?si=MrW82Otu2YzjPPTv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Closing End -->
+	<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+	<script>commentBox('5755659878400000-proj')</script>
 
-
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white py-5" id="contact" style="margin-top: 90px;">
-        <div class="container text-center py-5">
-            <div class="section-title position-relative text-center">
-                <h1 class="font-secondary display-3 text-white">Thank You</h1>
-                <i class="far fa-heart text-white"></i>
-            </div>
-            <div class="d-flex justify-content-center mb-4">
-                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
-            </div>
-            <div class="d-flex justify-content-center py-2">
-                <p class="text-white" href="#">pratamazul21@gmail.com</p>
-                <span class="px-3">|</span>
-                <p class="text-white" href="#">+62 8122 0531 990</p>
-            </div>
-            <p class="m-0">&copy; <a class="text-primary" href="#">metatelid.github.io</a>. Designed by <a class="text-primary" href="https://htmlcodex.com">HTML Codex</a>
-            </p>
-        </div>
-    </div>
-    <!-- Footer End -->
-
-
-    <!-- Scroll to Bottom -->
-    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-    
-    <!-- comment -->
-    <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
-    <script>commentBox('5679474792202240-proj')</script>
-</body>
-
+	</body>
 </html>
+
